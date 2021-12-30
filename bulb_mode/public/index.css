@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+}
+
+#box {
+    width: 500px;
+    height: 500px;
+}
+
+#circle {
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+#wire {
+    background-color: black;
+    height: 40%;
+    width: 5px;
+    margin-left: 50%;
+}
+
+/* #circle::before circle::after {
+    background-color: chocolate;
+} */
+
+#circle:hover {
+    background: yellow;
+    box-shadow: 0 0 1000px yellow;
+}
+
